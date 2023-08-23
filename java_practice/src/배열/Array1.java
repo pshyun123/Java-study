@@ -13,9 +13,10 @@ public class Array1 {
 //            System.out.println(grade1[i] + " ");
 //        }
 
-        //향상된 for문
+        //향상된 for문 (기본 유형 익히자)
         for(int e : grade1){
             System.out.println(e + " ");
+
         }
     }
 }

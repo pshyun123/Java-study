@@ -12,7 +12,7 @@ public class Buger {
         int minBurger = menu[0];
         int minDrink = menu[3];
         for(int i = 0; i < menu.length; i++) {//메뉴의 길이만큼 돌리면서 증가
-            if ((i < 3) && (minBurger > menu[i])) minBurger = menu[i];
+            if ((i < 3) && (minBurger > menu[i])) minBurger = menu[i];//
             if ((i > 2) && (minDrink > menu[i])) minDrink = menu[i];
 
             System.out.println(minBurger + minDrink - 50);

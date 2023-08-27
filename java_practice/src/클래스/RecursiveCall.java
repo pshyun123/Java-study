@@ -1,5 +1,5 @@
 package 클래스;
-
+//재귀호출
 public class RecursiveCall {
     public static void main(String[] args) {
         int rec = recursive_func(10);

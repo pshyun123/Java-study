@@ -45,7 +45,6 @@ class Sedan extends Car{
         oilEff = 12;
         tank = 45;
         seat = 4;
-        name = name; //이건 왜? name 속성은 생성자의 매개변수로 초기화되었으며, 변경가능성 없음.
         if(d == 1) { // 참이라면
            tank = tank + 30;
         }
@@ -60,7 +59,6 @@ class Sedan2 extends Car{
         oilEff = 12;
         tank = 45;
         seat = 4;
-        name = name;//이건 왜? name 속성은 생성자의 매개변수로 초기화되었으며, 변경가능성 없음.
         if(d == 1){ //참이라면
             seat=seat + 1;
         }
@@ -74,7 +72,6 @@ class Bus extends Car{
         oilEff = 5;
         tank = 100;
         seat = 20;
-        name = name; //이건 왜? name 속성은 생성자의 매개변수로 초기화되었으며, 변경가능성 없음.
         if(d == 1) { // 참이라면
             tank = tank + 30;
         }

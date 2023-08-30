@@ -18,7 +18,7 @@ public class GenericEx {
         System.out.println(pr2.getName()+" "+pr2.getYear());
 
     }
-
+//get,set차이
     class Product<T,M> { // 타입변수 여러개도 가능---3번
         private T name;
         private  M year;// 여기까지 입력하고 게터 세터 해줌

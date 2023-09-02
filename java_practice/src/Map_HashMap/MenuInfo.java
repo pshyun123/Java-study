@@ -7,7 +7,7 @@ public class MenuInfo {
     String description;
 
     public MenuInfo(String coffee, int price, String category, String description) {
-        this.coffee = coffee;
+        this.name = coffee;
         this.price = price;
         this.category = category;
         this.description = description;
